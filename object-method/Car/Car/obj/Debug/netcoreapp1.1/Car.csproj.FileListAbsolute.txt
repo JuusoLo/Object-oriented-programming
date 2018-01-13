@@ -1,0 +1,10 @@
+C:\Dev\Object-oriented-programming\object-method\Car\Car\bin\Debug\netcoreapp1.1\Car.deps.json
+C:\Dev\Object-oriented-programming\object-method\Car\Car\bin\Debug\netcoreapp1.1\Car.runtimeconfig.json
+C:\Dev\Object-oriented-programming\object-method\Car\Car\bin\Debug\netcoreapp1.1\Car.runtimeconfig.dev.json
+C:\Dev\Object-oriented-programming\object-method\Car\Car\bin\Debug\netcoreapp1.1\Car.dll
+C:\Dev\Object-oriented-programming\object-method\Car\Car\bin\Debug\netcoreapp1.1\Car.pdb
+C:\Dev\Object-oriented-programming\object-method\Car\Car\obj\Debug\netcoreapp1.1\Car.csprojResolveAssemblyReference.cache
+C:\Dev\Object-oriented-programming\object-method\Car\Car\obj\Debug\netcoreapp1.1\Car.csproj.CoreCompileInputs.cache
+C:\Dev\Object-oriented-programming\object-method\Car\Car\obj\Debug\netcoreapp1.1\Car.AssemblyInfo.cs
+C:\Dev\Object-oriented-programming\object-method\Car\Car\obj\Debug\netcoreapp1.1\Car.dll
+C:\Dev\Object-oriented-programming\object-method\Car\Car\obj\Debug\netcoreapp1.1\Car.pdb
