@@ -22,7 +22,8 @@ namespace Car
 
         public void AskData()
         {
-            Console.WriteLine($"Syötä auton merkki ja nopeus km/h: ");
+            Console.WriteLine($"Syötä auton merkki: " +
+                $"ja nopeus km/h:");
             Brand = Console.ReadLine();
             Speed = int.Parse(Console.ReadLine());
         }
@@ -41,7 +42,17 @@ namespace Car
             if (speed1 < 1)
                 Console.WriteLine("Negatiivista muutosta ei sallita!");
             else
-                Console.WriteLine($"Nopeutta lisättiin {speed1} kertaiseksi, uusi nopeutesi on: {speed1 * Speed} km/h\n ");
+                Console.WriteLine($"Nopeutta lisättiin {speed1} kertaiseksi, uusi nopeutesi on: {speed1 * Speed} km/h\n" +
+                    $"-------------------------");
+        }
+
+        public void Brake()
+        {
+            double speed2 = Speed * 0.9;
+
+                Console.WriteLine($"Auton alkuperäistä nopeutta vähennettiin 10 %, uusi nopeutesi on: {speed2} km/h\n" +
+                    $"-------------------------");
+
         }
     }
 }
