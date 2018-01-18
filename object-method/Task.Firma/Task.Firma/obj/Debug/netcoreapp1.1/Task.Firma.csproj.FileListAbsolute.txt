@@ -1,0 +1,10 @@
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\bin\Debug\netcoreapp1.1\Task.Firma.deps.json
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\bin\Debug\netcoreapp1.1\Task.Firma.runtimeconfig.json
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\bin\Debug\netcoreapp1.1\Task.Firma.runtimeconfig.dev.json
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\bin\Debug\netcoreapp1.1\Task.Firma.dll
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\bin\Debug\netcoreapp1.1\Task.Firma.pdb
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\obj\Debug\netcoreapp1.1\Task.Firma.csprojResolveAssemblyReference.cache
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\obj\Debug\netcoreapp1.1\Task.Firma.csproj.CoreCompileInputs.cache
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\obj\Debug\netcoreapp1.1\Task.Firma.AssemblyInfo.cs
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\obj\Debug\netcoreapp1.1\Task.Firma.dll
+C:\Dev\Object-oriented-programming\object-method\Task.Firma\Task.Firma\obj\Debug\netcoreapp1.1\Task.Firma.pdb
