@@ -85,7 +85,7 @@ namespace Task.Firma
             {
                 Console.WriteLine("Yrityksesi tulos on kehno");
             }
-            if (profit <= 300)
+            if (profit > 100 && profit <= 300)
             {
                 Console.WriteLine("Yrityksesi tulos on tyydyttävä");
             }
