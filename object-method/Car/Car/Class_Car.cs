@@ -22,16 +22,20 @@ namespace Car
 
         public void AskData()
         {
-            Console.WriteLine($"Syötä auton merkki: " +
-                $"ja nopeus km/h:");
+            Console.WriteLine($"Tervetuloa! Kertoisitko meille informaatiota autostasi?");
+            Console.WriteLine($"-------------------------\n" +
+                $"Syötä auton merkki:\n");
             Brand = Console.ReadLine();
+            Console.WriteLine($"-------------------------\n" +
+                $"Syötä autosi nopeus:\n");
             Speed = int.Parse(Console.ReadLine());
         }
         public void ShowCarInfo()
         {
-            Console.WriteLine($"Auton merkki on: {Brand}\n" +
+            Console.WriteLine($"-------------------------\n" +
+                $"Auton merkki on: {Brand}\n" +
                 $"Auton nopeus on: {Speed} km/h\n" +
-                $"-------------------------");
+                $"-------------------------\n");
         }
 
         public void Accelerate()
