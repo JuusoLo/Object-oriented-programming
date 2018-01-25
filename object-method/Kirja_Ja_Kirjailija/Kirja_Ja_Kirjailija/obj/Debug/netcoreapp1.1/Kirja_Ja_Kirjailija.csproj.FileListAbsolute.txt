@@ -1,0 +1,10 @@
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\bin\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.deps.json
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\bin\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.runtimeconfig.json
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\bin\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.runtimeconfig.dev.json
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\bin\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.dll
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\bin\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.pdb
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\obj\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.csprojResolveAssemblyReference.cache
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\obj\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.csproj.CoreCompileInputs.cache
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\obj\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.AssemblyInfo.cs
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\obj\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.dll
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\obj\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.pdb
