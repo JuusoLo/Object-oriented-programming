@@ -55,6 +55,19 @@ namespace Kirja_Ja_Kirjailija
             else
                 Console.WriteLine($"Kirjaa:{kirja.Nimi}, ei löytynyt");
         }
+        public void HaeKija(string nimi)
+        {
+            if (Nimi.Equals(nimi))
+                Console.WriteLine($"{Nimi}\n" +
+                    $"{Kirjailija}\n" +
+                    $"{Kustantaja}\n" +
+                    $"{Hinta}\n" +
+                    $"{Teema}\n" +
+                    $"---------------------------");
+            else
+                Console.WriteLine($"Kirjaa:{Nimi}, ei löytynyt");
+        }
+
 
         public static void TeemanVaihto()
         {

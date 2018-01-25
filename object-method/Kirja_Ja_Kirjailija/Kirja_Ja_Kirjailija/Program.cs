@@ -14,7 +14,9 @@ namespace Kirja_Ja_Kirjailija
             uusiKirja2.HaeKija(uusiKirja1);
             Kirja uusiKirja3 = new Kirja("Las Palmas", "Miguel Logniness", "Travel Boys", 27.95, "Matkailu");
             uusiKirja1.HaeKija(uusiKirja3);
-            Kirja.TeemanVaihto();
+            Console.WriteLine("============");
+            string searchBook = "Johtajan yliote";
+            uusiKirja1.HaeKija(searchBook);
             Console.ReadKey();
         }
     }
