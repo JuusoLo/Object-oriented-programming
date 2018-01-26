@@ -10,6 +10,7 @@ namespace Kirja_Ja_Kirjailija
         public string Kirjailija;
         public string Kustantaja;
         public double Hinta;
+        private double uusiHinta;
         public string Teema;
 
         static string VaihdaTeema;
@@ -21,7 +22,7 @@ namespace Kirja_Ja_Kirjailija
             Nimi = "Ei tiedossa!";
             Kirjailija = "Ei tiedossa!";
             Kustantaja = "Ei Tiedossa!";
-            UusiHinta = 0;
+            Hinta = 0;
             Teema = "Ei Tiedossa";
 
         }
@@ -32,6 +33,7 @@ namespace Kirja_Ja_Kirjailija
             this.Kirjailija = Kirjailija;
             this.Kustantaja = Kustantaja;
             this.Hinta = Hinta;
+            UusiHinta = Hinta;
             this.Teema = Teema;
         }
         //Toinen kirja
@@ -57,9 +59,11 @@ namespace Kirja_Ja_Kirjailija
             Console.WriteLine($"{kirja.Nimi}\n" +
                     $"{kirja.Kirjailija}\n" +
                     $"{kirja.Kustantaja}\n" +
-                    $"{kirja.Hinta}\n" +
-                    $"{kirja.Teema}\n" +
-                    $"---------------------------");
+                    $"{kirja.Hinta:C}\n" +
+                    $"{kirja.Teema}\n");
+            if (kirja.Hinta > 30)
+                Console.WriteLine($"Alennettu hinta: {kirja.UusiHinta:C}\n");
+            Console.WriteLine($"---------------------------");
         }
         // Kirjan tiedot
         public void HaeKija(string nimi)
@@ -81,19 +85,22 @@ namespace Kirja_Ja_Kirjailija
                    $"{Teema}\n" +
                    $"---------------------------");
         }
+        //Kirjan uusi hinta
         public double UusiHinta
         {
             get
             {
-                return Hinta;
+                return uusiHinta;
             }
             set
             {
-                if(value > 30)
+                if (value > 30)
                 {
-                    Hinta = value * 0.9;
-                    Console.WriteLine($"Uusi hinta on: {Hinta}");
+                    uusiHinta = value * 0.9;
+                    //Console.WriteLine($"Uusi hinta on: {Hinta}");
+                    //Console.WriteLine($"Kirjan {Nimi} hinta oli: {Hinta}, uusi hinta on : {uusiHinta}€");
                 }
+
             }
         }
 
