@@ -62,7 +62,7 @@ namespace Kirja_Ja_Kirjailija
                     $"{kirja.Hinta:C}\n" +
                     $"{kirja.Teema}\n");
             if (kirja.Hinta > 30)
-                Console.WriteLine($"Alennettu hinta: {kirja.UusiHinta:C}\n");
+                Console.WriteLine($"Alennettu hinta on: {kirja.UusiHinta:C}\n");
             Console.WriteLine($"---------------------------");
         }
         // Kirjan tiedot

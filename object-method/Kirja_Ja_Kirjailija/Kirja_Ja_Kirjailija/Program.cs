@@ -18,7 +18,6 @@ namespace Kirja_Ja_Kirjailija
 
 
 
-
             Console.ReadKey();
         }
     }
