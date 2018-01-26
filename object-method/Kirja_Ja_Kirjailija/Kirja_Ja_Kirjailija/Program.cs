@@ -10,13 +10,12 @@ namespace Kirja_Ja_Kirjailija
             Kirja uusiKirja1 = new Kirja("Johtajan yliote", "Olli Jokinen", "Alpha Oy", 39.90, "Elämänkerta");
             uusiKirja1.HaeKija(uusiKirja1);
             Kirja.TeemanVaihto();
-            Kirja uusiKirja2 = new Kirja("Grili maisteri", "Timo Jutila", "Lidl", 12.90, "Ruokakirja");
-            uusiKirja2.HaeKija(uusiKirja1);
+            Kirja uusiKirja2 = new Kirja("Grilli maisteri", "Timo Jutila", "Lidl", 12.90, "Ruokakirja");
+            uusiKirja1.HaeKija(uusiKirja2);
             Kirja uusiKirja3 = new Kirja("Las Palmas", "Miguel Logniness", "Travel Boys", 27.95, "Matkailu");
             uusiKirja1.HaeKija(uusiKirja3);
-            Console.WriteLine("============");
-            string searchBook = "Johtajan yliote";
-            uusiKirja1.HaeKija(searchBook);
+            uusiKirja1.UusiHinta = 39.90;
+
             Console.ReadKey();
         }
     }

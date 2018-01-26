@@ -21,7 +21,7 @@ namespace Kirja_Ja_Kirjailija
             Nimi = "Ei tiedossa!";
             Kirjailija = "Ei tiedossa!";
             Kustantaja = "Ei Tiedossa!";
-            Hinta = 0;
+            UusiHinta = 0;
             Teema = "Ei Tiedossa";
 
         }
@@ -43,29 +43,58 @@ namespace Kirja_Ja_Kirjailija
             this.Hinta = kirja.Hinta;
             this.Teema = kirja.Teema;
         }
+        // Method
         public void HaeKija(Kirja kirja)
         {
             if (this.Nimi.Equals(kirja.Nimi))
-                Console.WriteLine($"{kirja.Nimi}\n" +
+                Console.WriteLine("Kirja löytyi!");
+
+            else
+            {
+                Console.WriteLine($"Kirjaa:{kirja.Nimi}, ei löytynyt");
+
+            }
+            Console.WriteLine($"{kirja.Nimi}\n" +
                     $"{kirja.Kirjailija}\n" +
                     $"{kirja.Kustantaja}\n" +
                     $"{kirja.Hinta}\n" +
                     $"{kirja.Teema}\n" +
                     $"---------------------------");
-            else
-                Console.WriteLine($"Kirjaa:{kirja.Nimi}, ei löytynyt");
         }
+        // Kirjan tiedot
         public void HaeKija(string nimi)
         {
             if (Nimi.Equals(nimi))
-                Console.WriteLine($"{Nimi}\n" +
-                    $"{Kirjailija}\n" +
-                    $"{Kustantaja}\n" +
-                    $"{Hinta}\n" +
-                    $"{Teema}\n" +
-                    $"---------------------------");
+                TulostaKirja();
             else
+            {
                 Console.WriteLine($"Kirjaa:{Nimi}, ei löytynyt");
+                TulostaKirja();
+            }
+        }
+        public void TulostaKirja()
+        {
+            Console.WriteLine($"{Nimi}\n" +
+                   $"{Kirjailija}\n" +
+                   $"{Kustantaja}\n" +
+                   $"{Hinta}\n" +
+                   $"{Teema}\n" +
+                   $"---------------------------");
+        }
+        public double UusiHinta
+        {
+            get
+            {
+                return Hinta;
+            }
+            set
+            {
+                if(value > 30)
+                {
+                    Hinta = value * 0.9;
+                    Console.WriteLine($"Uusi hinta on: {Hinta}");
+                }
+            }
         }
 
 
