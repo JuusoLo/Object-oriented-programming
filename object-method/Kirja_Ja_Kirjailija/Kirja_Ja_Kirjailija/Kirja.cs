@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kirja_Ja_Kirjailija
+namespace Kirjallisuus
 {
     class Kirja
     {
@@ -53,7 +53,7 @@ namespace Kirja_Ja_Kirjailija
 
             else
             {
-                Console.WriteLine($"Kirjaa:{kirja.Nimi}, ei löytynyt");
+                Console.WriteLine($"Kirjaa: {kirja.Nimi}, ei löytynyt");
 
             }
             Console.WriteLine($"{kirja.Nimi}\n" +
