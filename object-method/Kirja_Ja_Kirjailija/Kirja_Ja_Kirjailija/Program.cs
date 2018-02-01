@@ -7,8 +7,10 @@ namespace Kirja_Ja_Kirjailija
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.WriteLine("Hei tervetuloa! Saat 10% alennuksen jos kirjan hinta on yli 30€");
+            Console.WriteLine("Hei tervetuloa! Saat 10% alennuksen jos kirjan hinta on yli 30€\n");
             Kirja uusiKirja1 = new Kirja("Johtajan yliote", "Olli Jokinen", "Alpha Oy", 39.90, "Elämänkerta");
+
+            Console.WriteLine($"Tässä kirjailija tulostettuna ominaisuudella : {uusiKirja1.Kirjailija}");
             uusiKirja1.HaeKija(uusiKirja1);
             Kirja.TeemanVaihto();
             Kirja uusiKirja2 = new Kirja("Grilli maisteri", "Timo Jutila", "Lidl", 12.90, "Ruokakirja");

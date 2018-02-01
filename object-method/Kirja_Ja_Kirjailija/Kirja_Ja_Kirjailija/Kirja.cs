@@ -7,7 +7,7 @@ namespace Kirja_Ja_Kirjailija
     class Kirja
     {
         public string Nimi;
-        public string Kirjailija;
+        private string _kirjailija;
         public string Kustantaja;
         public double Hinta;
         private double uusiHinta;
@@ -20,7 +20,7 @@ namespace Kirja_Ja_Kirjailija
         public Kirja()
         {
             Nimi = "Ei tiedossa!";
-            Kirjailija = "Ei tiedossa!";
+            _kirjailija = "Ei tiedossa!";
             Kustantaja = "Ei Tiedossa!";
             Hinta = 0;
             Teema = "Ei Tiedossa";
@@ -30,7 +30,7 @@ namespace Kirja_Ja_Kirjailija
         public Kirja(string Nimi, string Kirjailija, string Kustantaja, double Hinta, string Teema)
         {
             this.Nimi = Nimi;
-            this.Kirjailija = Kirjailija;
+            this._kirjailija = Kirjailija;
             this.Kustantaja = Kustantaja;
             this.Hinta = Hinta;
             UusiHinta = Hinta;
@@ -40,7 +40,7 @@ namespace Kirja_Ja_Kirjailija
         public Kirja(Kirja kirja)
         {
             this.Nimi = kirja.Nimi;
-            this.Kirjailija = kirja.Kirjailija;
+            this._kirjailija = kirja.Kirjailija;
             this.Kustantaja = kirja.Kustantaja;
             this.Hinta = kirja.Hinta;
             this.Teema = kirja.Teema;
@@ -102,6 +102,10 @@ namespace Kirja_Ja_Kirjailija
                 }
 
             }
+        }
+
+        public string Kirjailija { get => _kirjailija;
+            //set => _kirjailija = value;
         }
 
 
