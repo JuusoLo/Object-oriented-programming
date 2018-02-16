@@ -1,0 +1,10 @@
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\bin\Debug\netcoreapp1.1\Bban.deps.json
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\bin\Debug\netcoreapp1.1\Bban.runtimeconfig.json
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\bin\Debug\netcoreapp1.1\Bban.runtimeconfig.dev.json
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\bin\Debug\netcoreapp1.1\Bban.dll
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\bin\Debug\netcoreapp1.1\Bban.pdb
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1.1\Bban.csprojResolveAssemblyReference.cache
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1.1\Bban.csproj.CoreCompileInputs.cache
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1.1\Bban.AssemblyInfo.cs
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1.1\Bban.dll
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1.1\Bban.pdb
