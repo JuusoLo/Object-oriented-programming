@@ -8,39 +8,34 @@ namespace Vehicle
     {
         public string Type;
         public string Brand;
-        public string Model;
+        public string Year;
         public double Price;
-
 
         //Constructor
 
-        public Vehicle(string type, string brand, string model, double price)
+        public Vehicle(string type, string brand, string year, double price)
         {
             Type = type;
             Brand = brand;
-            Model = model;
+            Year = year;
             Price = price;
         }
 
         public Vehicle()
         {
-            Type = "Ei tiedossa";
-            Brand = "Ei tiedossa";
-            Model = "Ei tiedossa";
+            Type = "Ei tiedoissa";
+            Brand = "Ei tiedoissa";
+            Year = "Ei tiedoissa";
             Price = 0;
         }
 
-        public void PrintCarInfo()
+        public virtual string PrintInfo()
         {
-            Console.WriteLine($"Auton malli: {Type}\n" +
-                $"Merkki: {Brand}\n" +
-                $"Vuosimalli: {Model}\n" +
-                $"Hinta: {Price:c}\n" +
-                $"---------------------------");
+            return $"Auton tyyppi: {Type}\n" +
+                 $"Auton merkki: {Brand}\n" +
+                 $"Vuosimalli: {Year}\n" +
+                 $"Hinta: {Price:C}\n" +
+                 $"-----------------------------";
         }
-
-
-
-        
     }
 }
