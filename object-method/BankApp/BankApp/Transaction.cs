@@ -7,9 +7,10 @@ namespace BankApp
     class Transaction
     {
         private double _sum;
-        public DateTime _timeStamp;
+        private DateTime _timeStamp;
 
         public double Sum { get => _sum; set => _sum = value; }
+        public DateTime TimeStamp { get => _timeStamp; set => _timeStamp = value; }
 
         public Transaction(double sum, DateTime timeStamp)
         {

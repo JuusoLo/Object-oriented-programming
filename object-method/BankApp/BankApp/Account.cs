@@ -23,6 +23,8 @@ namespace BankApp
             _balance = balance;
             _transactions = transactions;
         }
+        public string AccountNumber { get => _accountNumber; set => _accountNumber = value; }
+        public double Balance { get => _balance; set => _balance = value; }
 
         public bool AddTransaction(Transaction transaction)
         {
@@ -41,7 +43,14 @@ namespace BankApp
             return res;
         }
 
-        public string AccountNumber { get => _accountNumber; set => _accountNumber = value; }
-        public double Balance { get => _balance; set => _balance = value; }
+        public List<Transaction> GetTransactionsForTimeSpan(DateTime startTime, DateTime endTime)
+        {
+            List<Transaction> res = (from transaction in _transactions
+                                     where transaction.TimeStamp >= startTime && transaction.TimeStamp <= endTime
+                                     orderby transaction.TimeStamp
+                                     select transaction).ToList();
+            return res;
+        }
+
     }
 }
