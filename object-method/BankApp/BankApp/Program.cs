@@ -18,7 +18,7 @@ namespace BankApp
             customers.Add(new Customer(bank.CreateAccount(), "Hannu", "Hanhi"));
 
             Random rnd = new Random();
-            for (int i = 0; i < 150; i++)
+            for (int i = 0; i < 2; i++)
             {
                 bank.AddTransactionForCustomer(customers[rnd.Next(0, 3)].AccountNumber,
                     new Transaction(rnd.Next(-3000, 5000),
