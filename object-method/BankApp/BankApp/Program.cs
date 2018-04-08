@@ -9,7 +9,7 @@ namespace BankApp
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.WriteLine("BankApp v.1.0");
+            Console.WriteLine("BankApp v.1.1");
             Bank bank = new Bank("Ankkalinnan pankki");
 
             List<Customer> customers = new List<Customer>();
