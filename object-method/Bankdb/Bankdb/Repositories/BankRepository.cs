@@ -1,13 +1,56 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Linq;
 using Bankdb.Models;
+using System.Data.SqlTypes;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bankdb.Repositories
 {
     class BankRepository : IBank
     {
+        public List<Bank> GetBanks()
+        {
+            using (var context = new BankdbContext())
+            {
+                try
+                {
+                    List<Bank> banks = context.Bank.ToListAsync().Result;
+                    return banks;
+                }
+                catch (Exception ex)
+                {
+                    throw new NotImplementedException($"{ex.Message}\n{ex.InnerException.Message} \n");
+                }
+
+            }
+        }
+
+        public List<Bank> GetBankCustomers()
+        {
+            using (var context = new BankdbContext())
+            {
+                try
+                {
+                    List<Bank> banks = context.Bank
+                        .Include(b => b.Customer)
+                        .ToListAsync().Result;
+                    return banks;
+                }
+                catch (Exception ex)
+                {
+                    throw new NotImplementedException($"{ex.Message}\n{ex.InnerException.Message} \n");
+                }
+
+            }
+
+
+        }
+
+        public List<Bank> GetBankAccounts()
+        {
+            throw new NotImplementedException();
+        }
         private readonly BankdbContext _context = new BankdbContext();
         public void Create(Bank bank)
         {
