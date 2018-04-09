@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 using Bankdb.Models;
+using Bankdb.Repositories;
 
 
 namespace Bankdb.Repositories
 {
-    interface IBank
+    interface ICustomer
     {
         List<Bank> GetBanks();
         List<Bank> GetBankCustomers();
         List<Bank> GetBankAccounts();
-        Bank GetBankById(long id);
-        void Create(Bank bank);
-        void Update(Bank bank);
+        void Create(Customer customer);
+        void Create(Account account);
         void Delete(int id);
+
     }
 }
