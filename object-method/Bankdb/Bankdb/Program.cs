@@ -16,7 +16,7 @@ namespace Bankdb
             //bank.Name = "Nordea";
             //bank.Bic = "ITELFIHH";
             //bankRepository.Delete(5);
-            CustomerRepository customerRepository = new CustomerRepository();
+            //CustomerRepository customerRepository = new CustomerRepository();
             Customer customer = new Customer();
             customer.Firstname = "Jorma";
             customer.Lastname = "Uotinen";
