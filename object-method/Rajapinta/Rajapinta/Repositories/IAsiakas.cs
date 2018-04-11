@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
 
-namespace Rajapinta
+namespace Rajapinta.Repositories
 {
-    interface ITuote
+    interface IAsiakas
     {
-        //method
-        void HaeTuote();
+        void HaeAsiakas();
         void LaskeBonus();
     }
 }
