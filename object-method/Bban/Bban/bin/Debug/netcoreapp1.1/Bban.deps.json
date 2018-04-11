@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "bban/1.0.0": {
+      "Bban/1.0.0": {
         "runtime": {
           "Bban.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "bban/1.0.0": {
+    "Bban/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

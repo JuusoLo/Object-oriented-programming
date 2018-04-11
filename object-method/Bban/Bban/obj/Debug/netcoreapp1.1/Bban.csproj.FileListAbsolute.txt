@@ -8,3 +8,4 @@ C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1
 C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1.1\Bban.AssemblyInfo.cs
 C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1.1\Bban.dll
 C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1.1\Bban.pdb
+C:\Dev\Object-oriented-programming\object-method\Bban\Bban\obj\Debug\netcoreapp1.1\Bban.AssemblyInfoInputs.cache

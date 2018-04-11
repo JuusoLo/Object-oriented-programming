@@ -9,12 +9,13 @@ namespace Bankdb
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Tervetuloa");
-            BankRepository bankRepository = new BankRepository();
-            Bank bank = new Bank();
-            bank.Name = "Nordea";
-            bank.Bic = "ITELFIHH";
-            bankRepository.Delete(5);
+            //BankRepository bankRepository = new BankRepository();
+            //Bank bank = new Bank();
+            //bank.Name = "Nordea";
+            //bank.Bic = "ITELFIHH";
+            //bankRepository.Delete(5);
             CustomerRepository customerRepository = new CustomerRepository();
             Customer customer = new Customer();
             customer.Firstname = "Jorma";
@@ -30,8 +31,6 @@ namespace Bankdb
             account.Balance = 47020;
             accountrepository.Create(account);
 
-            
-         
 
             Console.ReadLine();
 
