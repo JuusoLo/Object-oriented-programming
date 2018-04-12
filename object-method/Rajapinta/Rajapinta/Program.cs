@@ -32,7 +32,7 @@ namespace Rajapinta
             tuotteet[2].LaskeYhteisArvo();
 
             List<Asiakas> asiakkaat = new List<Asiakas>();
-            Asiakas asiakas1 = new Asiakas("Olli Jokinen", 1450);
+            Asiakas asiakas1 = new Asiakas("Olli Jokinen", 6500);
             Asiakas asiakas2 = new Asiakas("Kalevi Karhu", 1299);
             Asiakas asiakas3 = new Asiakas("Seija Karvala", 599);
 

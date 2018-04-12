@@ -45,7 +45,7 @@ namespace Rajapinta.Repositories
                 Console.WriteLine($"Bonus on 2%: {Total:C}\n");
                 Console.WriteLine(new string('-', 25));
             }
-            else if (Purchase > 1000 && Purchase < 200)
+            else if (Purchase > 1000 && Purchase <= 2000)
             {
                 Total = Purchase * 0.03;
                 Console.WriteLine($"Bonus on 3%: {Total:C}\n");
