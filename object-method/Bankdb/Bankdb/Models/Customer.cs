@@ -7,6 +7,7 @@ namespace Bankdb.Models
 {
     public partial class Customer
     {
+
         public Customer()
         {
             Account = new HashSet<Account>();
@@ -26,5 +27,11 @@ namespace Bankdb.Models
         public Bank Bank { get; set; }
         [InverseProperty("Customer")]
         public ICollection<Account> Account { get; set; }
+
+
+        public override string ToString()
+        {
+            return $"{Firstname} {Lastname} {BankId}";
+        }
     }
 }

@@ -54,6 +54,23 @@ namespace Bankdb.Repositories
             }
 
         }
+        public List<Customer> GetCustomers()
+        {
+            using (var context = new BankdbContext())
+            {
+                try
+                {
+                    List<Customer> customers = context.Customer.ToListAsync().Result;
+                    return customers;
+                }
+                catch (Exception ex)
+                {
+                    throw new NotImplementedException($"{ex.Message}\n{ex.InnerException.Message} \n");
+                }
+
+            }
+
+        }
 
         public List<Bank> GetBanks()
         {
@@ -70,6 +87,17 @@ namespace Bankdb.Repositories
                 }
 
             }
+
         }
+        public Customer GetLastCustomer()
+        {
+            using (var context = new BankdbContext())
+                return context.Customer.LastOrDefault();
+        }
+        public void Update(int id, Customer customer)
+        {
+
+        }
+
     }
 }

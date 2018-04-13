@@ -2,6 +2,7 @@
 using Bankdb.Repositories;
 using System.Linq;
 using Bankdb.Models;
+using Bankdb.View;
 
 namespace Bankdb
 {
@@ -9,35 +10,64 @@ namespace Bankdb
     {
         static void Main(string[] args)
         {
+
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Tervetuloa");
+            //Pankin luominen/päivittäminen/poistaminen
+
             //BankRepository bankRepository = new BankRepository();
             //Bank bank = new Bank();
             //bank.Name = "Nordea";
             //bank.Bic = "ITELFIHH";
             //bankRepository.Delete(5);
+
+            //Asiakkaan tiedot/luominen
+
             //CustomerRepository customerRepository = new CustomerRepository();
             //Customer customer = new Customer();
-            //customer.Firstname = "Jorma";
-            //customer.Lastname = "Uotinen";
-            //customer.BankId = 3;
+            //Create create = new Create();
+            //create.KysyTiedot(customer);
+            //Random rnd2 = new Random();
+            //long bankid = 0;
+            //for (long i = 0; i < 3; i++)
+            //{
+            //    bankid = rnd2.Next(1, 3);
+            //}
+
+            //customer.BankId = bankid;
             //customerRepository.Create(customer);
-            //CustomerRepository accountrepository = new CustomerRepository();
+            //Customer addedCustomer = customerRepository.GetLastCustomer();
+            //Tilin tiedot/luomien
+
+            //AccountRepository accountRepository = new AccountRepository();
+            //Random rnd = new Random();
+            //string rndaccount = "FI";
+            //for (int i = 0; i < 18; i++)
+            //{
+            //    rndaccount += rnd.Next(0, 10);
+            //}
             //Account account = new Account();
-            //account.Iban = "FI271827364829182736";
-            //account.Name = "Jorma Uotinen";
-            //account.BankId = 3;
-            //account.CustomerId = 4;
-            //account.Balance = 47020;
-            //accountrepository.Create(account);
-            AccountRepository accountRepository = new AccountRepository();
-            Transaction transaction = new Transaction
-            {
-                Iban = "FI257638291827364758",
-                Amount = -19273,
-                TimeStamp = DateTime.Today
-            };
-            accountRepository.AddTransaction(transaction);
+            //account.Iban = rndaccount;
+            //account.Name = $"{customer.Firstname} {customer.Lastname}";
+            //account.BankId = bankid;
+            //account.Balance = 0;
+            //account.CustomerId = addedCustomer.Id;
+            //accountRepository.CreateAccount(account);
+
+            //Tilitapahtumien luominen
+
+            //Transaction transaction = new Transaction
+            //{
+            //    Iban = rndaccount,
+            //    Amount = 54321,
+            //    TimeStamp = DateTime.Today
+            //};
+            //accountRepository.AddTransaction(transaction);
+
+            ViewBank viewBank = new ViewBank();
+            viewBank.PrintCustomer();
+
+            //Kertoo kun ohjelma on valmis
             Console.WriteLine("Morjes");
 
             Console.ReadLine();
@@ -45,5 +75,8 @@ namespace Bankdb
 
 
         }
+
+
+
     }
 }
