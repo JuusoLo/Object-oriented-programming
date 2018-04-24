@@ -8,3 +8,4 @@ C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Ki
 C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\obj\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.AssemblyInfo.cs
 C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\obj\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.dll
 C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\obj\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.pdb
+C:\Dev\Object-oriented-programming\object-method\Kirja_Ja_Kirjailija\Kirja_Ja_Kirjailija\obj\Debug\netcoreapp1.1\Kirja_Ja_Kirjailija.AssemblyInfoInputs.cache

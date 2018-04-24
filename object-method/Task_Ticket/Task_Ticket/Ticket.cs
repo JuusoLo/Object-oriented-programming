@@ -36,16 +36,16 @@ namespace Task_Ticket
         {
             Console.WriteLine("Ohjelma laskee lipun hinnan.\n" +
                 "---------------------");
-            Console.WriteLine($"Kerro ikäsi: ");
+            Console.Write($"Kerro ikäsi: ");
             string userInputAge = Console.ReadLine();
             Age = int.Parse(userInputAge);
-            Console.WriteLine($"Oletko MTK:n jäsen? Vastaa 1 = Kyllä tai 0 = Ei : ");
+            Console.Write($"Oletko MTK:n jäsen? Vastaa 1 = Kyllä tai 0 = Ei : ");
             string userInputMTK = Console.ReadLine();
             Member = double.Parse(userInputMTK);
-            Console.WriteLine($"Oletko varusmies? Vastaa 1 = Kyllä tai 0 = Ei : ");
+            Console.Write($"Oletko varusmies? Vastaa 1 = Kyllä tai 0 = Ei : ");
             string userInputSoldier = Console.ReadLine();
             Soldier = double.Parse(userInputSoldier);
-            Console.WriteLine($"Opiskelija? Vastaa 1 = Kyllä tai 0 = Ei : ");
+            Console.Write($"Opiskelija? Vastaa 1 = Kyllä tai 0 = Ei : ");
             string userInputStudent = Console.ReadLine();
             Student = double.Parse(userInputStudent);
 

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "task_ticket/1.0.0": {
+      "Task_Ticket/1.0.0": {
         "runtime": {
           "Task_Ticket.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "task_ticket/1.0.0": {
+    "Task_Ticket/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

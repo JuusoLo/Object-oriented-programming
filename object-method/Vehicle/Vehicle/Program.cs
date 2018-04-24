@@ -12,7 +12,7 @@ namespace Vehicle
             Car uusiAuto1 = new Car(2.0, "520", 5);
 
             Vehicle uusiVehicle2 = new Vehicle("Sedan", "Hyundai", "2012", 12000);
-            Car uusiAuto2 = new Car(1.8, "Ultimate", 5);
+            Car uusiAuto2 = new Car(1.8, "Ultimate", 4);
 
             Console.WriteLine(uusiVehicle1.PrintInfo());
             Console.Write(uusiAuto1.ToString() + "\n");
@@ -21,7 +21,7 @@ namespace Vehicle
             Console.Write(uusiAuto2.ToString() + "\n");
 
 
-            Console.WriteLine($"Onko BMW moottori isompi kuin Hyundain {uusiAuto1.Equals(uusiAuto2)}\n" +
+            Console.WriteLine($"Onko BMW moottori isompi kuin Hyundain? Vastaus: {uusiAuto1.Equals(uusiAuto2)}\n" +
                 $"-----------------------------");
 
             Vehicle uusiVehicle3 = new Vehicle("Pakettiauto", "Mercedes", "2015", 60000);
