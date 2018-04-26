@@ -37,6 +37,7 @@ namespace Bankdb
             //customer.BankId = bankid;
             //customerRepository.Create(customer);
             //Customer addedCustomer = customerRepository.GetLastCustomer();
+            
             //Tilin tiedot/luomien
 
             //AccountRepository accountRepository = new AccountRepository();
@@ -64,8 +65,17 @@ namespace Bankdb
             //};
             //accountRepository.AddTransaction(transaction);
 
+
+            //Tulostukset
+
             ViewBank viewBank = new ViewBank();
             viewBank.PrintCustomer();
+            Console.WriteLine("-------------------");
+            viewBank.PrintBank();
+            Console.WriteLine("-------------------");
+            viewBank.PrintTransaction();
+            Console.WriteLine("-------------------");
+
 
             //Kertoo kun ohjelma on valmis
             Console.WriteLine("Morjes");
