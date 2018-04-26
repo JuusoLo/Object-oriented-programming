@@ -78,7 +78,6 @@ namespace Bankdb
 
 
             //Kertoo kun ohjelma on valmis
-            Console.WriteLine("Morjes");
 
             Console.ReadLine();
 

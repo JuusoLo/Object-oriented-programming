@@ -34,7 +34,7 @@ namespace Bankdb.Models
 
         public override string ToString()
         {
-            return $"{Iban} {Balance}";
+            return $"Iban:{Iban} Saldo:{Balance:C}";
         }
     }
 }
